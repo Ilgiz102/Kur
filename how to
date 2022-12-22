@@ -1,0 +1,17 @@
+DATABASE
+
+mysql -u worker -p // password: 0000
+show databases;
+use delivery_DB
+show tables;
+select * from personal_data
+delete from completed_order_item where id = 9
+--------------------------------------------------------------------------------------------
+START
+
+../../apache-maven-3.8.6/bin/mvn spring-boot:run
+--------------------------------------------------------------------------------------------
+TEST
+
+../../apache-maven-3.8.6/bin/mvn test
+--------------------------------------------------------------------------------------------
